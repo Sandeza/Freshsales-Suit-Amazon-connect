@@ -1,0 +1,35 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshchat": {
+      "location": {
+        "conversation_user_info": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },  
+  "functions": {
+    "searchContactByPhoneNumber": {
+      "timeout": 10
+    },
+    "createUser": {
+      "timeout": 10
+    },
+    "createConversation": {
+      "timeout": 10
+    }
+
+  }
+}
+  },
+
+  "whitelisted-domains": [
+    "https://*.freshdesk.com",
+    "https://*.myfreshworks.com",
+    "https://*.freshchat.com"
+  ],
+  "engines": {
+    "node": "14.17.3",
+    "fdk": "8.6.7"
+  }
+}

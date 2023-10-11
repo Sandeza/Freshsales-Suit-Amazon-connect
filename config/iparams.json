@@ -1,0 +1,15 @@
+{ 
+    "freshchat_domain": {
+    "display_name": "Freshchat CRM domain",
+    "type": "text",
+    "description": "Enter your Freshchat CRM domain . Example: domain.myfreshchat.com",
+    "required": true
+    },
+  "freshchat_api_key": {
+    "display_name": "Freshchat API Key",
+    "type": "text",
+    "description": "Enter your Freshchat API Key .",
+    "required": true,
+    "secure": true
+  }
+}
