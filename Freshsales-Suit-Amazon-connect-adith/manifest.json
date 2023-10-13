@@ -1,0 +1,37 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshworks_crm": {
+      "location": {
+        "left_nav_cti": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "deal_entity_menu": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+      "functions": {
+        "searchContactByPhoneNumber": {
+          "timeout": 10
+        },
+        "createContactInFreshchat": {
+          "timeout": 10
+        },
+        "createConversationInFreshchat": {
+          "timeout": 10
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://*.freshdesk.com",
+    "https://*.myfreshworks.com",
+    "https://*.freshchat.com"
+  ],
+  "engines": {
+    "node": "14.17.3",
+    "fdk": "8.6.7"
+  }
+}
